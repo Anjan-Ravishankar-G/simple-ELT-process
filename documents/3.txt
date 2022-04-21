@@ -1,0 +1,6 @@
+2. Output Definition
+Based on the insights of the data understanding step, we can define what information should be included in the output. In order to determine the output, we have to consider the learnings of the previous step as well as think about potential use cases for the output.
+Based on the information we can potentially extract from the text files, I come up with two different use cases for machine learning training:
+Text classification (genre prediction based on the text)
+Text generation (title or subtitle generation based on the text)
+In order to fulfil the requirements for both potential use cases, I would suggest extracting the following information.

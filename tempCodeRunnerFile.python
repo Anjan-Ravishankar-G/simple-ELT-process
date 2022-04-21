@@ -1,0 +1,21 @@
+
+from collections import Counter 
+def extract():
+    d=input('Enter the directory with 2 front slash (ex:C://Users//ADMIN//anjan-python//fileproject//documents//1.txt)')
+    f=open(d,'r')
+    content=f.read()
+    # print(content)
+    f.close()
+    transformation(content) 
+
+def transformation(content):
+    c=list(content.split())
+    print(Counter(c))
+
+def writer(c):
+    d1=input('the directory is <C://Users//ADMIN//anjan-python//fileproject//writtendoc//> enter the name for your text file as ex:abc.txt')
+    f=open(f'C://Users//ADMIN//anjan-python//fileproject//writtendoc//{d1}','w')
+    f.write(c)
+    f.close()
+
+extract()

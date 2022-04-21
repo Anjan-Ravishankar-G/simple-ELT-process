@@ -1,0 +1,4 @@
+1 . Data Understanding
+Before being able to extract any information from a text file , we want to know how its information is structured as well as how and where the text files are stored ( e.g. name , directory ) .
+Structure
+To understand the structure , we take a look at some of the text file to get a sense of how the data is structured.

@@ -1,0 +1,2 @@
+Storage
+To write a script that automatically runs through every text file, we need to know how the text files are stored. Thus, we are interested in the naming and organisation of the directories. Potentially, we need to restructure things, so we can loop more easily through the files.
